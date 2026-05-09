@@ -1,23 +1,64 @@
-/*laiout tera como cor principal verde*/
+/*colorindo setores para fácil desenvolvimento*/
+body{
+    background-color: bisque;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .cab{
-    display: grid;
+    display: flex;
+    align-items: center;
     grid-template-columns: 1fr 1fr;
     background: #afafaf;
-    
 }
+
 .nome{
-    display: inline-block;
-    text-align: center;
-    width: 110px;
-    display: inline-block;
+    text-decoration: none;
+    font-size: x-large;
+    font-family:a ;
+    margin: 10px;
+    background-color: aqua;
     color: #103;
-    
     
 }
 img{
-    display: inline-block;
     max-width: 50px;
     background: #103;
     padding: 5px 10px;
     border-radius: 50px;
+}
+.setores{
+    background: #ff8383;
+    padding: 5px 3px;
+    width: 110px;
+    height: 300px;
+}
+p{
+    
+    background: #818181;
+    margin: 10px 2px;
+    max-width: 100px;
+    padding: 4px 3px;
+    border-radius: 10px;
+    text-align: center;
+}
+.aa{
+    margin-left: 90px;
+    padding: 4px;
+    background: #feaa02;
+    border-radius: 100px;
+}
+.bp{
+    width: 200px;
+    padding: 5px;
+    border-radius: 20px;
+    border: none;
+}
+.BBp{
+    border: none;
+    padding: 3px;
+    border-radius: 100px;
+}
+.link{
+    color: #103;
+    text-decoration: none;
 }
