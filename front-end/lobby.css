@@ -3,7 +3,13 @@ body{
     background-color: bisque;
     font-family: Arial, Helvetica, sans-serif;
 }
-
+* {
+    outline: 1px solid red;
+}
+.coluna{
+    display: flex;
+    flex-direction: column;
+}
 .cab{
     display: flex;
     align-items: center;
@@ -26,22 +32,26 @@ img{
     padding: 5px 10px;
     border-radius: 50px;
 }
+.tronco{
+    display: grid;
+    grid-template-columns: 150px 1fr 200px;
+    gap: 10px;
+
+}
 .setores{
     background: #ff8383;
     padding: 5px 3px;
-    width: 110px;
+    width: 150px;
     height: 300px;
+
 }
 p{
-    
     background: #818181;
-    margin: 10px 2px;
-    max-width: 100px;
+    width: 146px;
     padding: 4px 3px;
-    border-radius: 10px;
     text-align: center;
 }
-.aa{
+.barradepesquisa{
     margin-left: 90px;
     padding: 4px;
     background: #feaa02;
@@ -61,4 +71,17 @@ p{
 .link{
     color: #103;
     text-decoration: none;
+}
+.central{
+    
+    background-color: rgba(17, 0, 51, 0.632);
+    padding: 10px;
+}
+.amigos{
+
+    text-align: center;
+    background-color: rgb(93, 255, 201);
+    max-width: 200px;
+    
+    padding: 10px;
 }
