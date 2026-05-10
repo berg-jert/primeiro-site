@@ -15,6 +15,7 @@ body{
     align-items: center;
     grid-template-columns: 1fr 1fr;
     background: #afafaf;
+    justify-content: space-between;
 }
 
 .nome{
@@ -28,14 +29,15 @@ body{
 }
 img{
     max-width: 50px;
-    background: #103;
-    padding: 5px 10px;
+    background: rgb(206, 206, 206);
+    margin: 5px;
+    padding: 3px;
     border-radius: 50px;
 }
 .tronco{
     display: grid;
     grid-template-columns: 150px 1fr 200px;
-    gap: 10px;
+
 
 }
 .setores{
@@ -47,12 +49,12 @@ img{
 }
 p{
     background: #818181;
-    width: 146px;
+    width: 100%;
     padding: 4px 3px;
     text-align: center;
 }
 .barradepesquisa{
-    margin-left: 90px;
+    margin: 10px;
     padding: 4px;
     background: #feaa02;
     border-radius: 100px;
@@ -72,11 +74,14 @@ p{
     color: #103;
     text-decoration: none;
 }
+
+
 .central{
     
     background-color: rgba(17, 0, 51, 0.632);
-    padding: 10px;
 }
+
+
 .amigos{
 
     text-align: center;
@@ -84,4 +89,47 @@ p{
     max-width: 200px;
     
     padding: 10px;
+}
+
+
+.perfil{
+    display: flex;
+}
+.nome-usuario{
+    background-color: #afafaf;
+    width: 100px;
+    padding: 3px;
+    
+}
+
+
+.card{
+width: 100%;
+}
+.cabeca-card{
+    display: flex;
+    background-color: burlywood;
+
+}
+.meio-card p{
+    text-align: left;
+    background-color: cornflowerblue;
+    width: 100%;
+    margin: 0;
+}
+.pe-card{
+    display: flex;
+    justify-content: center;
+    background-color: cadetblue;
+}
+.pe-card button{
+    margin: 5px 2px;
+    border-radius: 10px;
+    border: none;
+    background-color: blueviolet;
+}
+.usuario{
+    width: 90px;
+    text-align: left;
+    background-color: aqua;
 }
